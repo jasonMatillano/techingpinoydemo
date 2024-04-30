@@ -1,85 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .info p {
-            margin: 5px 0;
-            font-size: 18px;
-            color: #555;
-        }
-        .experience h2 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .experience ul {
-            padding: 0;
-        }
-        .experience li {
-            background-color: #f0f0f0;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            border-left: 5px solid #333;
-        }
-        .experience li strong {
-            color: #333;
-        }
-        /* Round profile picture */
-        img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-        }
-    </style>
+	<title>Adobo Recipe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	h1 {
+        font-family: Arial, sans-serif;
+		}
+    body {
+        background-image: url(./assets/adobo-recipe.jpg);
+        background-size: cover;
+		}
+    .background-center-round{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: rgba(56, 54, 54, 0.5);
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .center-white-text {
+        color: #fff; /* This sets the font color to white */
+        padding: 20px;
+        text-align: center;
+		}
+    .ingredients{
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+		} 
+    .steps{
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+		} 
+		li {
+        margin-bottom: 10px;
+        font-family: Arial, sans-serif;
+		}
+	</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Jason Matillano's Portfolio</h1>
-        <img src="./assets/profile_pic.jpg" alt="none" width="400" height="400">
-        <div class="info">
-            <p><strong>Name:</strong> Jason Matillano</p>
-            <p><strong>Contact Number:</strong> +1 123 456 7890</p>
-            <p><strong>Address:</strong> 1234 Elm Street, Anytown, USA</p>
-        </div>
-        <div class="experience">
-            <h2>Work Experience</h2>
-            <ul>
-                <li>
-                    <strong>Job Title:</strong> Web Developer<br>
-                    <strong>Company:</strong> ABC Web Solutions<br>
-                    <strong>Duration:</strong> January 2019 - Present<br>
-                    <strong>Description:</strong> Responsible for designing and developing responsive web applications using HTML, CSS, and JavaScript.
-                </li>
-                <li>
-                    <strong>Job Title:</strong> Graphic Designer<br>
-                    <strong>Company:</strong> Design Co.<br>
-                    <strong>Duration:</strong> June 2017 - December 2018<br>
-                    <strong>Description:</strong> Created visual concepts using computer software, developing the overall layout and production design for advertisements, brochures, magazines, etc.
-                </li>
-            </ul>
-        </div>
+  <h1 style="text-align: center; color: #fff;">Adobo Recipe</h1>
+  <div  class="background-center-round">
+    <div class="center-white-text">
+      <ul class="ingredients">
+        <h3>Ingredients</h3>
+        <li>1 kg chicken, cut into serving pieces</li>
+        <li>1/2 cup vinegar</li>
+        <li>1/2 cup soy sauce</li>
+        <li>1 head garlic, minced</li>
+        <li>1 onion, chopped</li>
+        <li>1 tsp whole black peppercorns</li>
+        <li>3-4 bay leaves</li>
+        <li>1 cup water</li>
+        <li>2 tbsp cooking oil</li>
+      </ul>
+      
+      <ul class="steps">
+        <h3>Instructions</h3>
+        <li>Step 1: Heat the oil in a pan and sauté the garlic and onion until fragrant.</li>
+        <li>Step 2: Add the chicken and cook until lightly browned.</li>
+        <li>Step 3: dd the vinegar, soy sauce, peppercorns, and bay leaves. Stir well.</li>
+        <li>Step 4: Bring to a boil and then lower the heat. Cover and simmer for 30-45 minutes or until the chicken is cooked through and the sauce has thickened.</li>
+        <li>Step 5: Serve hot with rice.</li>
+      </ul>
     </div>
+    
+  </div>
+
 </body>
 </html>
